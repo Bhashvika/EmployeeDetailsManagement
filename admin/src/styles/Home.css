@@ -1,0 +1,30 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main container */
+.main1 {
+    background-image: url('../adminbg.jpeg'); /* Use proper relative path or import */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh; /* Full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header text */
+.h2 {
+    color: rgb(7, 42, 72);
+    font-size: 4.5rem; /* Adjust size for better responsiveness */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6); /* Subtle background for text readability */
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
